@@ -1,0 +1,18 @@
+[package]
+name = "math-in-rust-doc"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+
+[package.metadata.docs.rs]
+rustdoc-args = [ "--html-in-header", "katex.html" ]
+
+# Or add from cargo registery:
+# # https://docs.rs/katex-doc/latest/src/katex_doc/lib.rs.html#1-39
+#
+# rustdoc-args = [
+#     "--html-in-header",
+#     ".cargo/registry/src/github.com-1ecc6299db9ec823/katex-doc-0.1.0/katex.html",
+# ]
