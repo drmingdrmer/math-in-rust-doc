@@ -2,6 +2,14 @@
 name = "math-in-rust-doc"
 version = "0.1.0"
 edition = "2021"
+authors = [
+    "Zhang Yanpo <drdr.xp@gmail.com>",
+]
+description = "Demo of add math to rust doc"
+documentation = "https://docs.rs/math-in-rust-doc"
+homepage = "https://github.com/drmingdrmer/math-in-rust-doc"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/drmingdrmer/math-in-rust-doc"
 
 
 [dependencies]
